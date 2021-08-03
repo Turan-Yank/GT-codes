@@ -2,7 +2,6 @@ import math as mt
 import numpy as np
 import xlsxwriter as xl
 
-
 workbook = xl.Workbook('Design_Points.xlsx')
 worksheet = workbook.add_worksheet()
 
@@ -14,7 +13,6 @@ worksheet.write(r, c+2, "D")
 worksheet.write(r, c+3, "B")
 worksheet.write(r, c+4, "alfa")
 r+=1
-
 
 for A in np.arange(1.1, 2.1, 0.2):
     for B in np.arange(1.1, 2.1, 0.2):
