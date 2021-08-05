@@ -5,8 +5,8 @@ import xlsxwriter as xl
 workbook = xl.Workbook('Design_Points.xlsx')
 worksheet = workbook.add_worksheet()
 
-r=0
-c=0
+r = 0
+c = 0
 worksheet.write(r, c, "C")
 worksheet.write(r, c+1, "A")
 worksheet.write(r, c+2, "D")
