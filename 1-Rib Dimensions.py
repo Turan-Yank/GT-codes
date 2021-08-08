@@ -7,13 +7,14 @@ worksheet = workbook.add_worksheet()
 
 r = 0
 c = 0
+"""
 worksheet.write(r, c, "C")
 worksheet.write(r, c+1, "A")
 worksheet.write(r, c+2, "D")
 worksheet.write(r, c+3, "B")
 worksheet.write(r, c+4, "alfa")
 r+=1
-
+"""
 for A in np.arange(1.1, 2.1, 0.2):
     for B in np.arange(1.1, 2.1, 0.2):
         for C in np.arange(0.1, 2, 0.2):
